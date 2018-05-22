@@ -110,7 +110,7 @@ const server = micro(async (req, res) => {
         return embed
     })
 
-    superagent.post('https://discordapp.com/api/webhooks/440390453527838731/gUJytvgcHmvB3D9MugigdsZoEBAOK4pJi2cFokZCOgQ9blN4qdXYyDuPbDO0TRlt6IFW')
+    superagent.post('BLANK)
         .type('application/json')
         .send({
             content: '',
