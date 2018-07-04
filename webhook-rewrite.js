@@ -110,7 +110,7 @@ const server = micro(async (req, res) => {
         return embed
     })
 
-    superagent.post('BLANK)
+    superagent.post('BLANK')
         .type('application/json')
         .send({
             content: '',
